@@ -1,0 +1,32 @@
+node "default"
+{
+
+	include config
+
+}
+
+
+node docker.dexter.com.br
+
+{
+
+	include base
+
+}
+
+node docker.dexter.com.br
+
+{
+
+	include apache2
+
+}
+
+
+node automation.dexter.com.br
+
+{
+
+	include httpd
+
+}
